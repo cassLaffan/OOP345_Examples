@@ -2,7 +2,8 @@
 /*
 * Notice that I don't include anything to do with Linkage_A.cpp?
 * Yet, when you run the commage g++ Linkage_A.cpp Linkage_B.cpp,
-* it runs! Give it a try.
+* it runs! Give it a try. You can also run the makefile associated
+* with this.
 */
 
 void display();
