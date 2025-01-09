@@ -20,4 +20,5 @@ int main()
 		std::cout << "Shadowing inner i: " << i << std::endl;
     }
     std::cout << "Shadowed outer i: " << i << std::endl;
+	return 0;
 }

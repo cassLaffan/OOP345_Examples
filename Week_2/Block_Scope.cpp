@@ -40,4 +40,6 @@ int main()
     std::cout << i << std::endl;
 	// Try uncommenting the following line!
 	// std::cout << j << std::endl;
+
+	return 0;
 }
