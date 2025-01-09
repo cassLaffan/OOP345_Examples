@@ -15,7 +15,7 @@ int main(){
 	// power of the extern keyword!
     display();
     display();
-    std::cout << "Module B: share_me at " << &share_me   << '\n';
-    std::cout << "Module B: share_me is " <<  share_me++ << '\n';
+    std::cout << "Linkage_B: share_me at " << &share_me   << '\n';
+    std::cout << "Linkage_B: share_me is " <<  share_me++ << '\n';
 	return 0;
 }
