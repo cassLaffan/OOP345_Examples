@@ -10,7 +10,9 @@
 constexpr int N = 8;
 
 // a constexpr function
-constexpr int factorial(int i) { return i > 1 ? i * factorial(i - 1) : 1; }
+constexpr int factorial(int i) { 
+    return i > 1 ? i * factorial(i - 1) : 1;
+}
 
 int main() {
     std::cout << N << "! = " << factorial(N) << std::endl;
