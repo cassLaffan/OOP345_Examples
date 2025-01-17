@@ -21,9 +21,13 @@ int main()
         i -= j;      // round down
     }
     else{
+        // Notice we can call on j here? 
         i += 10 - j; // round up
     }
     std::cout << i << std::endl;
+    // But not here! Uncomment the following line and see
+    // how the code breaks.
+    //std::cout << j << std::endl;
 
     std::cout << "Enter i: ";
     std::cin >> i;
