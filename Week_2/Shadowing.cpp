@@ -12,12 +12,12 @@ int main()
     std::cout << "Enter i: ";
     std::cin >> i;
     if (i < 0){
-		int i = 4;  // shadows the outer i
-		std::cout << "Shadowing inner i: " << i << std::endl;
+      int i = 4;  // shadows the outer i
+      std::cout << "Shadowing inner i: " << i << std::endl;
     }
     else{
-		int i = -4; // shadows the outer i
-		std::cout << "Shadowing inner i: " << i << std::endl;
+      int i = -4; // shadows the outer i
+      std::cout << "Shadowing inner i: " << i << std::endl;
     }
     std::cout << "Shadowed outer i: " << i << std::endl;
 	return 0;
