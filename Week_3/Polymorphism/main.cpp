@@ -1,5 +1,6 @@
 #include "Square.h"
 #include "Circle.h"
+#include "Triangle.h"
 
 int main(){
 	// Now, we can have a concrete version of this class, not taking advantage of polymorphism...
@@ -19,4 +20,13 @@ int main(){
 	aShape = new Circle(3.4);
 	std::cout << "The area of our generic shape is: " << aShape->area() << std::endl;
 	std::cout << "The parameter of the generic shape is: " << aShape->parameter() <<std::endl;
+
+	// Freeing the memory again
+	delete aShape;
+
+	aShape = new Triangle(2.2, 4.5);
+	std::cout << "The area of our second generic shape is: " << aShape->area() << std::endl;
+	std::cout << "The parameter of the second generic shape is: " << aShape->parameter() <<std::endl;
+
+	delete aShape;
 }
