@@ -18,8 +18,8 @@ public:
     // Notice that I added these functions but also ensured I took
     // out the virtual keyword? This allows us to actually implement
     // these functions.
-    float parameter() const;
-    float area() const;
+    float parameter() const override;
+    float area() const override;
 
 };
 

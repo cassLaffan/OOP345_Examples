@@ -20,8 +20,8 @@ public:
     float getRadius() const;
     void setRadius(float);
 
-    float parameter() const;
-    float area() const;
+    float parameter() const override;
+    float area() const override;
 };
 
 #endif
