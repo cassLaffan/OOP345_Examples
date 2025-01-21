@@ -10,8 +10,12 @@
 void hexDump(void* ptr, int n) {
 	unsigned char* c = static_cast<unsigned char*>(ptr);
 	// Print bytes in hex
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < n; i++){
+		std::cout << "flag\n";
 		std::cout << std::setw(2) << std::hex << static_cast<int>(c[i]) << ' ';
+		
+	}
+
 }
 
 
@@ -49,6 +53,7 @@ int main(){
 
 	//--- For Loop with Range ---
 	int arr[] = {1, 2, 3, 4};
+	hexDump(arr, 4);
 	for (int x : arr) {
 		std::cout << x << " ";
 	}
