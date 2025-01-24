@@ -12,7 +12,7 @@ int main(){
 	Shape* aShape;
 	aShape = new Square(2.2, 2.5);
 	std::cout << "The area of our generic shape is: " << aShape->area() << std::endl;
-	std::cout << "The parameter of the circle is: " << aShape->parameter() << std::endl;
+	std::cout << "The parameter of the generic is: " << aShape->parameter() << std::endl;
 
 	// Freeing the memory
 	delete aShape;
@@ -25,8 +25,8 @@ int main(){
 	delete aShape;
 
 	aShape = new Triangle(2.2, 4.5);
-	std::cout << "The area of our second generic shape is: " << aShape->area() << std::endl;
-	std::cout << "The parameter of the second generic shape is: " << aShape->parameter() <<std::endl;
+	std::cout << "The area of our third generic shape is: " << aShape->area() << std::endl;
+	std::cout << "The parameter of the third generic shape is: " << aShape->parameter() <<std::endl;
 
 	delete aShape;
 }
