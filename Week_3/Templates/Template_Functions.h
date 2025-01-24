@@ -38,6 +38,4 @@ const char* add(const char* a, const char* b) {
     return result;
 }
 
-
-
 #endif
