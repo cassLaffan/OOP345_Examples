@@ -1,5 +1,18 @@
 #include <iostream>
 
+/*
+* In this file, courtesy of my friend Dmitri, we see how C++ can actually
+* have ambiguities in the inheritance tree. Notice that this tree, if we
+* drew it out, looks like a diamond.
+*    A
+*  /   \
+* B     C
+*  \   /
+*    D
+* You actually need to specify which path in the inheritance tree
+* a function needs to take, or C++'s compiler will complain!
+*/
+
 class A {
 	int x;
 public:
