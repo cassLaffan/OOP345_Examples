@@ -31,4 +31,5 @@ int main(){
 	Car myCar("Toyota");
 	// Note the output
 	myCar.start();
+	return 0;
 }
