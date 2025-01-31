@@ -21,7 +21,7 @@ public:
 	}
 
 	void teach(){
-	std::cout << "Teaching student..." << std::endl;
+		std::cout << "Teaching student..." << std::endl;
 	}
 };
 
