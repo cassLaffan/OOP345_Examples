@@ -28,7 +28,8 @@ public:
 	void startClass() {
 		teacher->teach();
 		std::cout << "Class is in session!" << std::endl;
-    }
+		
+	}
 };
 
 int main(){
