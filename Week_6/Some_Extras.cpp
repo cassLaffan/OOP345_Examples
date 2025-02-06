@@ -7,6 +7,7 @@
 
 int main() {
 	// Can hold int or double
+	// Might show up as an error in your text editor
 	std::variant<int, double> v = 42;
 	std::cout << std::get<int>(v) << std::endl; 
 
